@@ -1,4 +1,4 @@
-<h1 align="center">Freshly-Website-Clone ( Team Project )</h1>
+<h1 align="center">Freshly-Website-Clone</h1>
 
 <h3 align="center">It's a MERN Stack E-commerce website with all the major functionalities</h3>
 
@@ -32,7 +32,7 @@
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-<a href="sophisticated-legs-486.netlify.app/">
+<a href="https://isky27freshly.netlify.app/">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
 </a>  
 <a href="https://next-foodbackend-production.up.railway.app">
