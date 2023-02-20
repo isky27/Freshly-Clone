@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
 </a>  
 <a href="https://freshly-clone.onrender.com">
-  <img src="https://img.shields.io/badge/Render-%20-orange?style=for-the-badge&logo=render&logoColor=white" alt="render" />
+  <img src="https://img.shields.io/badge/Render-orange?style=for-the-badge&logo=render&logoColor=white" alt="render" />
   </a>
 </p>
 
