@@ -12,7 +12,7 @@ const Navbar = () => {
     <Grid
       p="10px"
       mt="10px"
-      templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+      templateColumns={{ base: "repeat(1, 1fr)", md: "1fr 2fr 1fr" }}
       alignItems="center"
       bg="#FFFDF7"
     >
@@ -26,19 +26,19 @@ const Navbar = () => {
           justifyContent="space-between"
         >
           <Link style={{ padding: "5px" }} to="/">
-            <Text fontSize="xl">Home</Text>
+            <Text fontSize={{ base: "m", lg: "xl" }}>Home</Text>
           </Link>
           <Link style={{ padding: "5px" }} to="/products">
-            <Text fontSize="xl">Plan & Meal</Text>
+            <Text fontSize={{ base: "m", lg: "xl" }}>Plan & Meal</Text>
           </Link>
           <Link style={{ padding: "5px" }} to="/about">
-            <Text fontSize="xl">How it Works</Text>
+            <Text fontSize={{ base: "m", lg: "xl" }}>How it Works</Text>
           </Link>
           <Link style={{ padding: "5px" }} to="/gift">
-            <Text fontSize="xl">Gifts</Text>
+            <Text fontSize={{ base: "m", lg: "xl" }}>Gifts</Text>
           </Link>
           <Link style={{ padding: "5px" }} to="/contact">
-            <Text fontSize="xl">Contact</Text>
+            <Text fontSize={{ base: "m", lg: "xl" }}>Contact</Text>
           </Link>
         </Flex>
       </GridItem>
