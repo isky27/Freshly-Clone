@@ -35,12 +35,12 @@
 <a href="https://isky27freshly.netlify.app/">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
 </a>  
-<a href="https://next-foodbackend-production.up.railway.app">
-  <img src="https://img.shields.io/badge/railway-430098?style=for-the-badge&logo=railway&logoColor=white" alt="railway" />
+<a href="https://freshly-clone.onrender.com">
+  <img src="https://img.shields.io/badge/Render-%20-orange" alt="render" />
   </a>
 </p>
 
-<h3 align="center"><a href="https://sophisticated-legs-486.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://freshly-clone.onrender.com"><strong>Want to see live preview »</strong></a></h3>
 
 
 <br />
@@ -53,7 +53,7 @@
   <a href="#Contact">Author</a> &#10023;
 </p>
 
-It’s Group project where we've used MERN stack to build the Freshly.com with our creativity along with frontend and backend integration
+It’s Indivisual project where I've used MERN stack to build the Freshly.com with creativity along with frontend and backend integration
 its Fully Responsive. Freshly is a weekly subscription that delivers fresh meals. Created Carts, Products, Users, Admin API ( Back-End ).
 
 ## Home Page
