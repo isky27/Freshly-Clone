@@ -28,32 +28,9 @@ const AllRoutes = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/gift" element={<Gift />} />
         <Route path="/about" element={<About />} />
-        {/* <Route
-          path="/admin"
-          element={
-            <AdminRequireAuth>
-              <AdminHome />
-            </AdminRequireAuth>
-          }
-        /> */}
+        <Route path="/admin" element={<AdminRequireAuth><AdminProduct/></AdminRequireAuth>}></Route>
         <Route path="/admin-login" element={<AdminLogin />} />
-
-        <Route
-          path="/admin"
-          element={
-            <AdminRequireAuth>
-              <AdminProduct />
-            </AdminRequireAuth>
-          }
-        ></Route>
-        <Route
-          path="/admin/user"
-          element={
-            <AdminRequireAuth>
-              <AdminUser />
-            </AdminRequireAuth>
-          }
-        ></Route>
+        <Route path="/admin/user" element={<AdminRequireAuth><AdminUser/></AdminRequireAuth>}></Route>
         <Route
           path="/admin/addProduct"
           element={
@@ -62,8 +39,7 @@ const AllRoutes = () => {
             </AdminRequireAuth>
           }
         ></Route>
-        <Route path="/products" element={<Products />}>
-          {" "}
+        <Route path="/products" element={<Products/>}>
         </Route>
       </Routes>
     </>

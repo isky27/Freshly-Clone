@@ -209,9 +209,10 @@ Router.post("/get/admin", async (req, res) => {
     if (role != "admin") {
      return res.status(404).send({msg : "You are not Admin!"});
     }
-    let adminProducts = await Product.find({ adminId: { $elemMatch: { $eq: adminId } } })
-      .limit(limit)
-      .skip((page - 1) * limit);
+    console.log(adminId)
+    let adminProducts = await Product.find({ admin:adminId })
+      // .limit(limit)
+      // .skip((page - 1) * limit);
     if (adminProducts.length > 0) {
      return res.status(200).send(adminProducts);
     } else {
