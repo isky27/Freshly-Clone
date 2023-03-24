@@ -1,4 +1,4 @@
-<h1 align="center">Freshly-Website-Clone ( Team Project )</h1>
+<h1 align="center">Freshly-Website-Clone</h1>
 
 <h3 align="center">It's a MERN Stack E-commerce website with all the major functionalities</h3>
 
@@ -32,15 +32,15 @@
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-<a href="sophisticated-legs-486.netlify.app/">
+<a href="https://isky27freshly.netlify.app/">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />
 </a>  
-<a href="https://next-foodbackend-production.up.railway.app">
-  <img src="https://img.shields.io/badge/railway-430098?style=for-the-badge&logo=railway&logoColor=white" alt="railway" />
+<a href="https://freshly-clone.onrender.com">
+  <img src="https://img.shields.io/badge/Render-orange?style=for-the-badge&logo=render&logoColor=white" alt="render" />
   </a>
 </p>
 
-<h3 align="center"><a href="https://sophisticated-legs-486.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://freshly-clone.onrender.com"><strong>Want to see live preview »</strong></a></h3>
 
 
 <br />
@@ -53,7 +53,7 @@
   <a href="#Contact">Author</a> &#10023;
 </p>
 
-It’s Group project where we've used MERN stack to build the Freshly.com with our creativity along with frontend and backend integration
+It’s Indivisual project where I've used MERN stack to build the Freshly.com with creativity along with frontend and backend integration
 its Fully Responsive. Freshly is a weekly subscription that delivers fresh meals. Created Carts, Products, Users, Admin API ( Back-End ).
 
 ## Home Page
@@ -89,10 +89,3 @@ its Fully Responsive. Freshly is a weekly subscription that delivers fresh meals
 ## Admin User Page
 ![adminUser](https://user-images.githubusercontent.com/96005514/209442791-26bb8202-6179-4f79-8a63-428fc6b1df36.png)
 
-
-## Team Members.
-1.	Mr. Himanshu Dhami [Team Leader].
-2.	Mr. Arjun Sen.
-3.	Mr. Akshay Patel.
-4.	Mr. Vinay Kumar.
-5.	Ms. Supriya Pathak.
