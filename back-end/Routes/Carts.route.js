@@ -39,7 +39,26 @@ Router.post("/add", async (req, res) => {
 });
 
 // add product to the cart url : (http://localhost:8080/carts/get)
+Router.post("/get", async (req, res) => {
+  try {
+    let { token } = req.body;
+    if (!token) {
+     return res.status(404).send({ msg: "Sorry! You have to Login first" });
+    }
+    let getValue = token.split(":");
+    let userId = getValue[0];
 
+    let userProduct = await Cart.find({ userId });
+    if (userProduct.length > 0) {
+      let getProduct = await Product.findById();
+     return res.status(200).send(userProduct);
+    } else {
+     return res.status(200).send("");
+    }
+  } catch (error) {
+   return res.status(500).send({ error: "Something Went Wrong!", mes: error });
+  }
+});
 
 // add product to the cart url : (http://localhost:8080/carts/delete)
 Router.delete("/delete/:id", async (req, res) => {
